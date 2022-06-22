@@ -31,7 +31,7 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "lint": "eslint --fix",
-    "prettier": "prettier --write ./src/**",
+    "prettier": "prettier --write ./src/**/*.ts ./src/**/*.tsx",
     "lint-staged": "lint-staged"
   },
   "eslintConfig": {
@@ -59,7 +59,8 @@
     "@typescript-eslint/parser": "^5.3.1",
     "babel-plugin-import": "^1.13.3",
     "customize-cra": "^1.0.0",
-    "eslint": "^7.11.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-babel": "^5.3.1",

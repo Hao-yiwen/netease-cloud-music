@@ -5,7 +5,7 @@ import { count } from './count/count'
 import { person } from './person/person'
 
 export interface RootModel extends Models<RootModel> {
-  count: typeof count,
+  count: typeof count
   person: typeof person
 }
 export const models: RootModel = { count, person }
